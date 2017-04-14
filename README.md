@@ -22,13 +22,14 @@
 - rippleEffect
 - suckEffect 
 
-**AlignedFlip animation**
+
+
 ![](https://media.giphy.com/media/3o7btQiPu6fGNRV5mM/giphy.gif)
 
-**Cube animation**
+
 ![](https://media.giphy.com/media/3o7bueB26ACcgLLeCs/giphy.gif)
 
-**PageCurl animation**
+
 ![](https://media.giphy.com/media/3oKIPEsjjpUJr3FnEI/giphy.gif)
 
 ## Example
