@@ -74,7 +74,7 @@ use_frameworks!
 pod "FastOnBoarding"
 ```
 
-####Then on the top of files where you are going to use this:
+#### Then on the top of files where you are going to use this:
 ```swift
 import FastOnBoarding
 ```
@@ -88,4 +88,6 @@ Baran Batuhan Karaoğuz([@Baran](https://github.com/barankaraoguzzz))
 
 FastOnBoarding is available under the MIT license. See the LICENSE file for more info.
 
-##Keywords swift, swift3, Animating, Pagecurl, Cube, Onboarding, Onboard, xcode, ios
+## Keywords 
+
+swift, swift3, Animating, Pagecurl, Cube, Onboarding, Onboard, xcode, ios
