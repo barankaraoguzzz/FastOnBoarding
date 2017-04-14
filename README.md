@@ -23,12 +23,14 @@
 - suckEffect 
 
 
-##### Previews
+### Previews
 
 ![Example 1](https://media.giphy.com/media/3o7btQiPu6fGNRV5mM/giphy.gif)
-___
-![Example 2](https://media.giphy.com/media/3oKIPEsjjpUJr3FnEI/giphy.gif)
-___
+
+
+![Example 2](https://media.giphy.com/media/3o7btQiPu6fGNRV5mM/giphy.gif)
+
+
 ![Example 3](https://media.giphy.com/media/3o7bueB26ACcgLLeCs/giphy.gif)
 
 
