@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainController" customModule="FastOnBoarding_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="f1B-qE-spL">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="wl8-la-w2q">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="pageIndicatorTintColor" red="0.30196078431372547" green="0.27450980392156865" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wl8-la-w2q" secondAttribute="bottom" id="0N4-k0-stI"/>
+                            <constraint firstAttribute="trailing" secondItem="f1B-qE-spL" secondAttribute="trailing" id="EBo-KJ-Gjg"/>
+                            <constraint firstItem="f1B-qE-spL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TNI-pt-5Nb"/>
+                            <constraint firstItem="wl8-la-w2q" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.06" id="dRU-OR-BOm"/>
+                            <constraint firstItem="wl8-la-w2q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fcr-xB-iMK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="f1B-qE-spL" secondAttribute="bottom" id="iZl-bF-5kr"/>
+                            <constraint firstAttribute="trailing" secondItem="wl8-la-w2q" secondAttribute="trailing" id="wif-oh-DlM"/>
+                            <constraint firstItem="f1B-qE-spL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xOD-ra-d4z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="onBoardingImage" destination="f1B-qE-spL" id="oAP-T5-U3v"/>
+                        <outlet property="onBoardingPageControl" destination="wl8-la-w2q" id="llb-J7-ibH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image1" width="1080" height="1920"/>
+    </resources>
+</document>

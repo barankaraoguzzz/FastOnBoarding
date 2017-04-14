@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12262C81A41E2F9D3F9CA1B9CB07C086 /* FastOnBoarding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E537443E60D0DE93E54191A29C137 /* FastOnBoarding-dummy.m */; };
+		19BA90DC936E578768D270FEB2B5D491 /* FastOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B03E75BF350FE49851C87959EFBD85 /* FastOnBoarding.swift */; };
 		263D3716DF64D81E7A810F0FD2652950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		35A8E6E3C2C0AD698739189D3BE18FF4 /* Pods-FastOnBoarding_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1F1FE46C413528975481175D6879DC /* Pods-FastOnBoarding_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		385D6E3193018EC87ECC2FBE9F883DC5 /* Pods-FastOnBoarding_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5492B2832444878D633B9C957CC8470B /* Pods-FastOnBoarding_Tests-dummy.m */; };
 		643010527FB63D2AC667EFF3FE5544DF /* Pods-FastOnBoarding_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 675F9FA2B59F79BC831CA165D751E687 /* Pods-FastOnBoarding_Example-dummy.m */; };
+		65DAA30B00723852A1EAF27B23437AD2 /* FastOnBoarding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E537443E60D0DE93E54191A29C137 /* FastOnBoarding-dummy.m */; };
 		C051B9EE107CC927F68E4A685D9F8DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CB729D46391853A902FA04DB3C7D20F2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F9BEA9A1A7678118B4C6F12DA03BD /* ReplaceMe.swift */; };
 		D0B4C2058BE5C7EA2C255B22240DB3E1 /* Pods-FastOnBoarding_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB363C1C9D4AA5FB2C42341CED9AE50 /* Pods-FastOnBoarding_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD448FC902844AB3D430459D182FECC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		EDA188DA802B7B6D1D0F0835DEFDE312 /* FastOnBoarding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F72A7A47381F88FD8D3CEDD951555F /* FastOnBoarding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,7 +32,6 @@
 /* Begin PBXFileReference section */
 		056A7742A1263B33C22812E7303F993F /* Pods_FastOnBoarding_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FastOnBoarding_Example.framework; path = "Pods-FastOnBoarding_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BBDC7F0F09804897B54E774457A94D /* Pods-FastOnBoarding_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FastOnBoarding_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D5F9BEA9A1A7678118B4C6F12DA03BD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		0F5F50636FBB24468A9283501B426B67 /* Pods-FastOnBoarding_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FastOnBoarding_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		11F8CBD910E6D1184D9B6EBFBD2BA0C6 /* FastOnBoarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FastOnBoarding.framework; path = FastOnBoarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D96DA457571F00C5B61B484F681B5C /* Pods-FastOnBoarding_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastOnBoarding_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		A64E537443E60D0DE93E54191A29C137 /* FastOnBoarding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastOnBoarding-dummy.m"; sourceTree = "<group>"; };
 		C658B26B83D31E6645686EE721D694F4 /* Pods-FastOnBoarding_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastOnBoarding_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0B03E75BF350FE49851C87959EFBD85 /* FastOnBoarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FastOnBoarding.swift; sourceTree = "<group>"; };
 		EF756F135BCBCBD68FCC2DDA99AED846 /* Pods-FastOnBoarding_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastOnBoarding_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F12EF53F4EEA4F5F61A948A9D8C00E4A /* Pods-FastOnBoarding_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FastOnBoarding_Tests-resources.sh"; sourceTree = "<group>"; };
 		F26EF26A10B8D08718E8A477F2D0C246 /* FastOnBoarding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastOnBoarding-prefix.pch"; sourceTree = "<group>"; };
@@ -110,15 +110,6 @@
 			path = "Target Support Files/Pods-FastOnBoarding_Tests";
 			sourceTree = "<group>";
 		};
-		411B00147CF134EF61329F3804580119 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0D5F9BEA9A1A7678118B4C6F12DA03BD /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		4A50AA443A18650708D61C12E820169A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +149,7 @@
 		A06E6987AAC14D9ABC7DF825E24A7DF7 /* FastOnBoarding */ = {
 			isa = PBXGroup;
 			children = (
-				411B00147CF134EF61329F3804580119 /* Classes */,
+				DED8E0D7D89B809A7214CA45493A2F5D /* Classes */,
 			);
 			name = FastOnBoarding;
 			path = FastOnBoarding;
@@ -214,6 +205,15 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		DED8E0D7D89B809A7214CA45493A2F5D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0B03E75BF350FE49851C87959EFBD85 /* FastOnBoarding.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		E30FD3F49BC69910E21F47A295CC00FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0C370C49C6396714AE3F9EB527CCA12 /* Build configuration list for PBXNativeTarget "FastOnBoarding" */;
 			buildPhases = (
-				CFE5E98F35CB36B2F6E8BD718F07700C /* Sources */,
+				1838EF5620011914C223E999E241CE11 /* Sources */,
 				A557112E0BB2AAF17602B80389AFD436 /* Frameworks */,
 				F1F3C206DF62C7157FB15DFC0921B9ED /* Headers */,
 			);
@@ -335,20 +335,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1838EF5620011914C223E999E241CE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DAA30B00723852A1EAF27B23437AD2 /* FastOnBoarding-dummy.m in Sources */,
+				19BA90DC936E578768D270FEB2B5D491 /* FastOnBoarding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F980960CA5C6A31D7350253D04B4D12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				385D6E3193018EC87ECC2FBE9F883DC5 /* Pods-FastOnBoarding_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFE5E98F35CB36B2F6E8BD718F07700C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12262C81A41E2F9D3F9CA1B9CB07C086 /* FastOnBoarding-dummy.m in Sources */,
-				CB729D46391853A902FA04DB3C7D20F2 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
