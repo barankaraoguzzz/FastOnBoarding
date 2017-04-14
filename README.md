@@ -31,7 +31,7 @@
 ![Example 2](https://im2.ezgif.com/tmp/ezgif-2-eddb75ac92.gif)
 
 
-![Example 3](https://media.giphy.com/media/3o7bueB26ACcgLLeCs/giphy.gif)
+![Example 3](https://im2.ezgif.com/tmp/ezgif-2-0de0afe39c.gif)
 
 
 
