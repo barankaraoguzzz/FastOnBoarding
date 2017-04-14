@@ -23,7 +23,8 @@
 - suckEffect 
 
 
-### Previews
+## Previews
+
 
 ![Example 1](https://media.giphy.com/media/3o7btQiPu6fGNRV5mM/giphy.gif)
 
@@ -32,9 +33,6 @@
 
 
 ![Example 3](https://im2.ezgif.com/tmp/ezgif-2-0de0afe39c.gif)
-
-
-
 
 
 
