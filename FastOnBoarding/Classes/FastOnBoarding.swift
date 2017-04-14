@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
     
     private struct helpClassStruct{
         static var helpClasses : helperClass!
@@ -35,7 +35,7 @@ extension UIImageView {
 
 }
 
-class helperClass {
+public class helperClass {
     
     var onBoardingImageArray : [UIImage]?
     var onBoardingPageControl : UIPageControl?
@@ -75,7 +75,7 @@ class helperClass {
         }
     }
     
-    func leftPageCurlAnimation (animationStyle : AnimationStyle) {
+    private func leftPageCurlAnimation (animationStyle : AnimationStyle) {
         UIView.animate(withDuration: 1.0, animations: {
             let animation = CATransition()
             animation.duration = 1.0
@@ -91,7 +91,7 @@ class helperClass {
         })
     }
     
-    func rightPageCurlAnimation(animationStyle : AnimationStyle){
+    private func rightPageCurlAnimation(animationStyle : AnimationStyle){
         UIView.animate(withDuration: 1.0, animations: {
             let animation = CATransition()
             animation.duration = 1.0
@@ -109,7 +109,7 @@ class helperClass {
     
 }
 
-enum AnimationStyle : String {
+public enum AnimationStyle : String {
     case cameraIris = "cameraIris"
     case cameraIrisHollowOpen = "cameraIrisHollowOpen"
     case cameraIrisHollowClose = "cameraIrisHollowClose"
@@ -124,5 +124,9 @@ enum AnimationStyle : String {
     case rippleEffect = "rippleEffect"
     case suckEffect = "suckEffect"
 }
+
+
+
+
 
 
