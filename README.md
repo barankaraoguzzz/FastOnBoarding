@@ -23,12 +23,13 @@
 - suckEffect 
 
 
+##### Previews
 
-![(https://media.giphy.com/media/3o7btQiPu6fGNRV5mM/giphy.gif](https://media.giphy.com/media/3o7btQiPu6fGNRV5mM/giphy.gif)
+![Example 1](https://media.giphy.com/media/3o7btQiPu6fGNRV5mM/giphy.gif)
 ___
-![https://media.giphy.com/media/3oKIPEsjjpUJr3FnEI/giphy.gi](https://media.giphy.com/media/3oKIPEsjjpUJr3FnEI/giphy.gif)
+![Example 2](https://media.giphy.com/media/3oKIPEsjjpUJr3FnEI/giphy.gif)
 ___
-![https://media.giphy.com/media/3oKIPEsjjpUJr3FnEI/giphy.gi](https://media.giphy.com/media/3o7bueB26ACcgLLeCs/giphy.gif)
+![Example 3](https://media.giphy.com/media/3o7bueB26ACcgLLeCs/giphy.gif)
 
 
 
