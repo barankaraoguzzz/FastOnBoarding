@@ -1,0 +1,16 @@
+PODS:
+  - FastOnBoarding (0.1.0)
+
+DEPENDENCIES:
+  - FastOnBoarding (from `../`)
+
+EXTERNAL SOURCES:
+  FastOnBoarding:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FastOnBoarding: dc1f356b004c7a7cb0e38d35a9becb508f09cb11
+
+PODFILE CHECKSUM: 5a884476eb07b502f2ec0fc18d08ae9de34ceb78
+
+COCOAPODS: 1.1.1

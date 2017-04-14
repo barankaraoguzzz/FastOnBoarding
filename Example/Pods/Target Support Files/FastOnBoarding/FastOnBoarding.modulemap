@@ -1,0 +1,6 @@
+framework module FastOnBoarding {
+  umbrella header "FastOnBoarding-umbrella.h"
+
+  export *
+  module * { export * }
+}
