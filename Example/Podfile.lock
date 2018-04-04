@@ -1,0 +1,16 @@
+PODS:
+  - FOView (0.1.0)
+
+DEPENDENCIES:
+  - FOView (from `../`)
+
+EXTERNAL SOURCES:
+  FOView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FOView: cfeb67cbf17c6e0326ef1a80b5ea5a3aa3709f77
+
+PODFILE CHECKSUM: 43295e0ef5d23e05d29b6c2081e8c3c63b8f4f7a
+
+COCOAPODS: 1.4.0

@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+	almost every application needs an onboarding page. Fast Onboarding will eliminate this need.
                        DESC
 
-  s.homepage         = 'https://github.com/baran.karaoguz@ogr.sakarya.edu.tr/FOView'
+  s.homepage         = 'https://github.com/barankaraoguzzz/FastOnBoarding'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'baran.karaoguz@ogr.sakarya.edu.tr' => 'b.b.karaoguz@gmail.com' }
-  s.source           = { :git => 'https://github.com/baran.karaoguz@ogr.sakarya.edu.tr/FOView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/barankaraoguzzz/FastOnBoarding.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
