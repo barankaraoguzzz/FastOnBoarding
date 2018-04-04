@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FOView_Example' do
+  pod 'FOView', :path => '../'
+
+  target 'FOView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
