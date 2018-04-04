@@ -20,11 +20,27 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDb-Lk-vyt" customClass="FOView" customModule="FOView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="MDb-Lk-vyt" secondAttribute="bottom" id="9Ul-jQ-5de"/>
+                            <constraint firstItem="MDb-Lk-vyt" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="fY9-IE-jaq"/>
+                            <constraint firstAttribute="trailing" secondItem="MDb-Lk-vyt" secondAttribute="trailing" id="ltS-oO-fF1"/>
+                            <constraint firstItem="MDb-Lk-vyt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="olz-B7-lkW"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="onboardingView" destination="MDb-Lk-vyt" id="aA9-2f-bbA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>

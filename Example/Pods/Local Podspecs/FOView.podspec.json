@@ -1,9 +1,9 @@
 {
   "name": "FOView",
   "version": "0.1.0",
-  "summary": "A short description of FOView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/baran.karaoguz@ogr.sakarya.edu.tr/FOView",
+  "summary": "almost every application needs an onboarding page. Fast Onboarding will eliminate this need.",
+  "description": "almost every application needs an onboarding page. Fast Onboarding will eliminate this need.",
+  "homepage": "https://github.com/barankaraoguzzz/FastOnBoarding",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "baran.karaoguz@ogr.sakarya.edu.tr": "b.b.karaoguz@gmail.com"
   },
   "source": {
-    "git": "https://github.com/baran.karaoguz@ogr.sakarya.edu.tr/FOView.git",
+    "git": "https://github.com/barankaraoguzzz/FastOnBoarding.git",
     "tag": "0.1.0"
   },
   "platforms": {

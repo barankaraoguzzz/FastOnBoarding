@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import FOView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var onboardingView: FOView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        onboardingView.foImages = imageViewArray
+        onboardingView.animateType = .oglFlip
+        onboardingView.foDiriction = .horizantal
+        onboardingView.startOnboarding()
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    let imageViewArray : [UIImage]? = [#imageLiteral(resourceName: "image1"),#imageLiteral(resourceName: "image2"),#imageLiteral(resourceName: "image3")]
 }
 
