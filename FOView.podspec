@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FOView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FOView.'
+  s.summary          = 'almost every application needs an onboarding page. Fast Onboarding will eliminate this need.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
