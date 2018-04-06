@@ -21,6 +21,9 @@ public class FOView: UIView {
     public var isPageControlEnable = true
     public var animateType = AnimationStyle.alignedFlip
     
+    //Mark: -Delegate
+    public weak var delegate: FODelegate?
+    
     
     
     override init(frame: CGRect) {
@@ -78,7 +81,7 @@ public class FOView: UIView {
             let gestureLeft = UISwipeGestureRecognizer(target: self, action: #selector(directionHorizantal(gesture:)))
             gestureRight.direction = .left
             self.addGestureRecognizer(gestureLeft)
-        
+            
         case .vertical:
             
             //Mark: -Down swipe add
@@ -112,6 +115,11 @@ public class FOView: UIView {
                 }
             default:break
             }
+            
+            if delegate != nil {
+                delegate?.FOnboarding(self, getCountPageControl: (_pageControl?.currentPage)!)
+            }
+            
         }
     }
     
@@ -133,6 +141,10 @@ public class FOView: UIView {
                     _imageView?.image = foImages?[(_pageControl?.currentPage)!]
                 }
             default:break
+            }
+            
+            if delegate != nil {
+                delegate?.FOnboarding(self, getCountPageControl: (_pageControl?.currentPage)!)
             }
         }
     }

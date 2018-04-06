@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FOView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'almost every application needs an onboarding page. Fast Onboarding will eliminate this need.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-	almost every application needs an onboarding page. Fast Onboarding will eliminate this need.
+	almost every application needs an onboarding page. Fast Onboarding will eliminate this need.hopefully it benefits your business
                        DESC
 
   s.homepage         = 'https://github.com/barankaraoguzzz/FastOnBoarding'
@@ -30,13 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files  = 'Classes/*.{h,m,swift}'
-  
-  # s.resource_bundles = {
-  #   'FOView' => ['FOView/Assets/*.png']
-  # }
+  s.source_files = 'FOView/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+
 end

@@ -14,6 +14,7 @@
 		6DF5D66E6E7A8CF9880157B3EF8CF378 /* FOAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F351F6BDA9D35A1DD47935CA10486B /* FOAnimation.swift */; };
 		6F859A3499AF1EFE7697EA1DD92FD562 /* Pods-FOView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FD76B1BE03C2325CCC88F8EE39F73E /* Pods-FOView_Example-dummy.m */; };
 		943176ACC4C81A3CF64FEFDA67C6E8FA /* Pods-FOView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 760010D7CCBF40D5D989FA2BB8137A9E /* Pods-FOView_Tests-dummy.m */; };
+		95CE3F382077F57D005B5C02 /* FODelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE3F372077F57C005B5C02 /* FODelegate.swift */; };
 		B5E81B61A458C2E536F5C162319441DA /* FOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C02DFBD296276FDD0EBEFEC1D2B569A /* FOView.swift */; };
 		C234511E3162C82DD0C857ACE6A4698B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D88BCD42640F6C7F98C7C9B0AE001AB8 /* FOEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20654B6F59E48EB40BA0721A1ED9957A /* FOEnums.swift */; };
@@ -32,8 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005B848091F613D87440CDA18264DC22 /* Pods_FOView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FOView_Example.framework; path = "Pods-FOView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01F13F7CD7AAC7C8D4A63C47C5A63307 /* FOView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FOView.framework; path = FOView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		005B848091F613D87440CDA18264DC22 /* Pods_FOView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FOView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F13F7CD7AAC7C8D4A63C47C5A63307 /* FOView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FOView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040ADD7FD000AE1A4931EBA10D10A5D8 /* Pods-FOView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FOView_Tests-resources.sh"; sourceTree = "<group>"; };
 		0488053434AC059E5F1239337365215B /* Pods-FOView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FOView_Example-resources.sh"; sourceTree = "<group>"; };
 		09F351F6BDA9D35A1DD47935CA10486B /* FOAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FOAnimation.swift; path = FOView/Classes/FOAnimation.swift; sourceTree = "<group>"; };
@@ -42,32 +43,33 @@
 		20654B6F59E48EB40BA0721A1ED9957A /* FOEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FOEnums.swift; path = FOView/Classes/FOEnums.swift; sourceTree = "<group>"; };
 		24613DD722E9E30806429C42ED49BE96 /* FOView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOView-umbrella.h"; sourceTree = "<group>"; };
 		27A11C12C6456CE0F47CE09335C8066E /* Pods-FOView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		28421B5E6655F5CDC00F53F19DBF9EFA /* Pods_FOView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FOView_Tests.framework; path = "Pods-FOView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28421B5E6655F5CDC00F53F19DBF9EFA /* Pods_FOView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FOView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		315575276AD02351BF7DC323BC39C5FB /* Pods-FOView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		354049AE3390D262C40FF72B4B1097FD /* Pods-FOView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		399D1D30B45E24934814284A905D4A24 /* Pods-FOView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FOView_Tests.modulemap"; sourceTree = "<group>"; };
+		399D1D30B45E24934814284A905D4A24 /* Pods-FOView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FOView_Tests.modulemap"; sourceTree = "<group>"; };
 		3D7B522EDFF632BD531B0C62C34F4410 /* Pods-FOView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		499F8C6813207D4C820DE1769A775A0F /* FOView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOView-prefix.pch"; sourceTree = "<group>"; };
 		4B57D979301778A8BFE5E5415437875C /* Pods-FOView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FOView_Example-umbrella.h"; sourceTree = "<group>"; };
-		659E60C78E5273F87BE134938F82C4F7 /* Pods-FOView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FOView_Example.modulemap"; sourceTree = "<group>"; };
+		659E60C78E5273F87BE134938F82C4F7 /* Pods-FOView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FOView_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66EE0BD895EFF61E7365AB239D99A6DB /* Pods-FOView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E3C942663BAD1D74AC4E3854BE57299 /* FOView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FOView.xcconfig; sourceTree = "<group>"; };
 		760010D7CCBF40D5D989FA2BB8137A9E /* Pods-FOView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOView_Tests-dummy.m"; sourceTree = "<group>"; };
 		77AAC7CDD22CE76D5BA7C75F9FDF38A8 /* Pods-FOView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		823B7920A40CFD0894CE670846FF5403 /* FOView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FOView.modulemap; sourceTree = "<group>"; };
-		842D8816EDA295AFB925D725E964950A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		823B7920A40CFD0894CE670846FF5403 /* FOView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FOView.modulemap; sourceTree = "<group>"; };
+		842D8816EDA295AFB925D725E964950A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		89379975CC03A6311D5BD0EAF828728A /* FOView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FOView-dummy.m"; sourceTree = "<group>"; };
 		8A38C13C2A67967C59D11319697E2C34 /* Pods-FOView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FOView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CE3F372077F57C005B5C02 /* FODelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FODelegate.swift; path = FOView/Classes/FODelegate.swift; sourceTree = "<group>"; };
 		AA5449FD17508591B9B6B8A8A6958456 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2FD76B1BE03C2325CCC88F8EE39F73E /* Pods-FOView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOView_Example-dummy.m"; sourceTree = "<group>"; };
-		BEE6605BE0FB7A76D51273880B82351B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BEE6605BE0FB7A76D51273880B82351B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB59701B23DA2DF9291487BC409FBF16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D25B32013ED4B97798ED21E43FF07E9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA75B5CC829671930BB5C1BA6E65C7BF /* Pods-FOView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FOView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E6AC42BA8496C471E3A2E701B7570B9A /* Pods-FOView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FOView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ED40656E8F6C24F74E041DAE37874A73 /* FOView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FOView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED40656E8F6C24F74E041DAE37874A73 /* FOView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FOView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5CCE76F5ECD39175B35B99A2840B846 /* Pods-FOView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FOView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 		269FF4D4DBC954AF240A975609716BF8 /* FOView */ = {
 			isa = PBXGroup;
 			children = (
+				95CE3F372077F57C005B5C02 /* FODelegate.swift */,
 				09F351F6BDA9D35A1DD47935CA10486B /* FOAnimation.swift */,
 				20654B6F59E48EB40BA0721A1ED9957A /* FOEnums.swift */,
 				1C02DFBD296276FDD0EBEFEC1D2B569A /* FOView.swift */,
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CE3F382077F57D005B5C02 /* FODelegate.swift in Sources */,
 				6DF5D66E6E7A8CF9880157B3EF8CF378 /* FOAnimation.swift in Sources */,
 				D88BCD42640F6C7F98C7C9B0AE001AB8 /* FOEnums.swift in Sources */,
 				48D64A7567B9C52F0C84EC08CA8E23E2 /* FOView-dummy.m in Sources */,

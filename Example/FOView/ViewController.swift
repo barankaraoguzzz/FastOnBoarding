@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         onboardingView.foImages = imageViewArray
         onboardingView.animateType = .oglFlip
         onboardingView.foDiriction = .horizantal
+        onboardingView.delegate = self
         onboardingView.startOnboarding()
         
     }
@@ -25,3 +26,9 @@ class ViewController: UIViewController {
     let imageViewArray : [UIImage]? = [#imageLiteral(resourceName: "image1"),#imageLiteral(resourceName: "image2"),#imageLiteral(resourceName: "image3")]
 }
 
+
+extension ViewController: FODelegate {
+    func FOnboarding(_ foView: FOView, getCountPageControl: Int) {
+        print(getCountPageControl)
+    }
+}
