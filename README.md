@@ -37,18 +37,17 @@ import FOView
 
 class ViewController: UIViewController {
 
-@IBOutlet weak var onboardingView: FOView!
+  @IBOutlet weak var onboardingView: FOView!
 
-override func viewDidLoad() {
-super.viewDidLoad()
-onboardingView.foImages = imageViewArray
-onboardingView.animateType = .oglFlip
-onboardingView.foDiriction = .horizantal
-onboardingView.startOnboarding()
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    onboardingView.foImages = imageViewArray
+    onboardingView.animateType = .oglFlip
+    onboardingView.foDiriction = .horizantal
+    onboardingView.startOnboarding()
+  }
 
-}
-
-let imageViewArray : [UIImage]? = [#imageLiteral(resourceName: "image1"),#imageLiteral(resourceName: "image2"),#imageLiteral(resourceName: "image3")]
+  let imageViewArray : [UIImage]? = [#imageLiteral(resourceName: "image1"),#imageLiteral(resourceName: "image2"),#imageLiteral(resourceName: "image3")]
 }
 
 
