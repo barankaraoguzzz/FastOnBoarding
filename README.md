@@ -1,9 +1,13 @@
 # FastOnBoarding
 
-[![CI Status](http://img.shields.io/travis/baran.karaoguz@ogr.sakarya.edu.tr/FastOnBoarding.svg?style=flat)](https://travis-ci.org/baran.karaoguz@ogr.sakarya.edu.tr/FastOnBoarding)
-[![Version](https://img.shields.io/cocoapods/v/FastOnBoarding.svg?style=flat)](http://cocoapods.org/pods/FastOnBoarding)
+[![CI Status](https://img.shields.io/badge/build-online-green.svg?longCache=true&style=flat)](https://travis-ci.org/baran.karaoguz@ogr.sakarya.edu.tr/FastOnBoarding)
+[![Version](https://img.shields.io/badge/pod-v0.2.0-orange.svg?longCache=true&style=flat)](http://cocoapods.org/pods/FastOnBoarding)
 [![License](https://img.shields.io/cocoapods/l/FastOnBoarding.svg?style=flat)](http://cocoapods.org/pods/FastOnBoarding)
-[![Platform](https://img.shields.io/cocoapods/p/FastOnBoarding.svg?style=flat)](http://cocoapods.org/pods/FastOnBoarding)
+[![Platform](https://img.shields.io/badge/platform-ios-blue.svg?longCache=true&style=flat)](http://cocoapods.org/pods/FastOnBoarding)
+[![Language](https://img.shields.io/badge/language-swift-green.svg?longCache=true&style=flat)](http://cocoapods.org/pods/FastOnBoarding)
+
+
+
 
 **FastOnBoarding framework helps you make your onboard page.You write just a line code  and finished onboard page. It has 11 different animation**
 
