@@ -44,12 +44,30 @@ class ViewController: UIViewController {
     onboardingView.foImages = imageViewArray
     onboardingView.animateType = .oglFlip
     onboardingView.foDiriction = .horizantal
+    onboardingView.delegate = self //For Delegate
     onboardingView.startOnboarding()
   }
 
   let imageViewArray : [UIImage]? = [#imageLiteral(resourceName: "image1"),#imageLiteral(resourceName: "image2"),#imageLiteral(resourceName: "image3")]
 }
 
+
+```
+
+## Implement FODelegate
+If you want to detect onboarding index, you should use FODelegate. :)
+
+```swift
+extension ViewController: FODelegate {
+    func FOnboarding(_ foView: FOView, getCountPageControl: Int) {
+        print(getCountPageControl)
+    }
+}
+```
+
+## Optionally Method
+If you want to make a custom page control. you should hide FOView's page control.
+```swift
 
 ```
 
@@ -69,7 +87,7 @@ pod "FOView"
 
 ####Then on the top of files where you are going to use this:
 ```swift
-import FOView
+onboardingView.isPageControl = false // this is optional method. default = true
 ```
 
 
