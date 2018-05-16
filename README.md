@@ -66,9 +66,10 @@ extension ViewController: FODelegate {
 ```
 
 ## Optionally Method
+#### isPageControl
 If you want to make a custom page control. you should hide FOView's page control.
 ```swift
-
+onboardingView.isPageControl = false // this is optional method. default = true
 ```
 
 ## Install via CocoaPods
@@ -87,7 +88,7 @@ pod "FOView"
 
 ####Then on the top of files where you are going to use this:
 ```swift
-onboardingView.isPageControl = false // this is optional method. default = true
+import FOView
 ```
 
 
