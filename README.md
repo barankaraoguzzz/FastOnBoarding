@@ -55,7 +55,7 @@ class ViewController: UIViewController {
 ```
 
 ## Implement FODelegate
-######## If you want to detect onboarding index, you should use FODelegate. :)
+###### If you want to detect onboarding index, you should use FODelegate. :)
 
 ```swift
 extension ViewController: FODelegate {
@@ -66,8 +66,8 @@ extension ViewController: FODelegate {
 ```
 
 ## Optionally Method
-### isPageControl
-######## If you want to make a custom page control. you should hide FOView's page control.
+#### isPageControl
+###### If you want to make a custom page control. you should hide FOView's page control.
 ```swift
 onboardingView.isPageControl = false // this is optional method. default = true
 ```
