@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         onboardingView.foImages = imageViewArray
         onboardingView.animateType = .oglFlip
         onboardingView.foDiriction = .horizantal
+        onboardingView.isPageControl = false // this is optional method. default = true
         onboardingView.delegate = self
         onboardingView.startOnboarding()
         

@@ -21,6 +21,17 @@ public class FOView: UIView {
     public var isPageControlEnable = true
     public var animateType = AnimationStyle.alignedFlip
     
+    open var isPageControl : Bool = true {
+        didSet {
+            if self.isPageControl {
+                _pageControl?.isHidden = false
+            } else {
+                _pageControl?.isHidden = true
+            }
+        }
+    }
+    
+    
     //Mark: -Delegate
     public weak var delegate: FODelegate?
     
@@ -54,6 +65,7 @@ public class FOView: UIView {
         _imageView?.frame = self.frame
         _imageView?.contentMode = .scaleAspectFill
         _imageView?.clipsToBounds = true
+        print(isPageControl)
         self.addSubview(_imageView!)
         //Mark: - ***************************************
         if isPageControlEnable {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FOView'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'almost every application needs an onboarding page. Fast Onboarding will eliminate this need.'
 
 # This description is used to generate tags and improve search results.
